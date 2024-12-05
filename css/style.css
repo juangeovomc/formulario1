@@ -1,0 +1,118 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa; /* Fondo claro */
+    margin: 0;
+    padding: 0;
+}
+
+/* Encabezado y tarjetas */
+.card-header {
+    background-color: #198754; /* Verde oscuro */
+    color: white;
+    text-align: center;
+}
+
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para destacar */
+    border: none;
+    margin-bottom: 20px;
+}
+
+.card-footer {
+    background-color: #f1f1f1; /* Fondo claro para pie */
+    color: #6c757d; /* Texto gris */
+    font-size: 0.9em;
+}
+
+/* Botones */
+.btn-success {
+    background-color: #198754;
+    border-color: #198754;
+}
+
+.btn-success:hover {
+    background-color: #145c32;
+    border-color: #145c32;
+}
+
+.btn-outline-success {
+    color: #198754;
+    border-color: #198754;
+}
+
+.btn-outline-success:hover {
+    background-color: #198754;
+    color: white;
+}
+
+/* Centrando contenido */
+.text-center {
+    text-align: center;
+}
+
+.d-grid {
+    margin-top: 20px;
+}
+
+/* Tablas (si las usas en registros.php) */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th,
+table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+table th {
+    background-color: #198754;
+    color: white;
+}
+
+table tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Formularios */
+input,
+select,
+textarea {
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    border-color: #198754;
+    outline: none;
+    box-shadow: 0 0 5px rgba(25, 135, 84, 0.5);
+}
+
+/* Alertas SweetAlert */
+.swal2-popup {
+    border-radius: 10px !important;
+}
+
+.swal2-title {
+    color: #198754 !important;
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+    .card {
+        margin: 10px;
+    }
+
+    .btn {
+        width: 100%;
+    }
+}
